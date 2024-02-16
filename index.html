@@ -7,24 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta property="og:title" content="Music Player - lugom.io" />
     <meta property="og:description" content="Player de música simples criado para fins de aprendizado." />
-    <meta property="og:image" content="./assets/img/banner.png" />
-    <meta property="og:url" content="./index.html" />
+    <meta property="og:image" content="assets/img/banner.png" />
+    <meta property="og:url" content="index.html" />
     <meta name="twitter:title" content="Music Player - lugom.io" />
     <meta name="twitter:description" content="Player de música simples criado para fins de aprendizado." />
-    <meta name="twitter:image" content="./assets/img/banner.png" />
+    <meta name="twitter:image" content="assets/img/banner.png" />
     <meta name="twitter:card" content="summary_large_image" />
     <title>Music Player - lugom.io</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/png">
-    <link rel="canonical" href="./">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="canonical" href="https://lugom.io/projects/simple-music-player/">
+    <base href="https://lugom.io/projects/simple-music-player/">
 </head>
 
 <body>
     <main id="container">
         <section class="flex center direction-column w-100 h-100">
             <div id="player" class="flex center direction-column gap-3 radius-150">
-                <audio id="audio" src="./assets/music/six-days.mp3" type="audio/mp3"></audio>
-                <img id="capa" class="radius-150 w-100" src="./assets/img/six-days-capa.jpg"
+                <audio id="audio" src="assets/music/six-days.mp3" type="audio/mp3"></audio>
+                <img id="capa" class="radius-150 w-100" src="assets/img/six-days-capa.jpg"
                     alt="foto de capa da musica">
                 <div class="flex center direction-column gap-1 text-center">
                     <span id="autor">Dj Shadow</span>
@@ -33,30 +34,30 @@
                 <div class="flex center direction-column gap-2 controls">
                     <div class="flex center direction-row gap-2">
                         <button id="prev" class="flex center radius-50" title="Música anterior">
-                            <img src="./assets/icon/prev-icon.svg" alt="Seta para voltar a musica">
+                            <img src="assets/icon/prev-icon.svg" alt="Seta para voltar a musica">
                         </button>
                         <button id="playBtn" class="flex center radius-50" title="Play">
-                            <img src="./assets/icon/play-icon.svg" alt="Icone para dar play na musica">
+                            <img src="assets/icon/play-icon.svg" alt="Icone para dar play na musica">
                         </button>
                         <button id="next" class="flex center radius-50" title="Próxima música">
-                            <img src="./assets/icon/next-icon.svg" alt="Seta para a proxima musica">
+                            <img src="assets/icon/next-icon.svg" alt="Seta para a proxima musica">
                         </button>
                     </div>
                     <div class="flex center direction-row gap-2">
                         <button id="minusTime" class="flex center radius-50 plusminus">
-                            <img src="./assets/icon/minus-ten-icon.svg" alt="Sinal de menos seguido do número dez"
+                            <img src="assets/icon/minus-ten-icon.svg" alt="Sinal de menos seguido do número dez"
                                 title="Voltar 10s">
                         </button>
                         <button id="plusTime" class="flex center radius-50 plusminus">
-                            <img src="./assets/icon/plus-ten-icon.svg" alt="alto falante com o sinal de mais"
+                            <img src="assets/icon/plus-ten-icon.svg" alt="alto falante com o sinal de mais"
                                 title="Avançar 10s">
                         </button>
                         <button id="minusVolume" class="flex center radius-50 plusminus">
-                            <img src="./assets/icon/volume-minus-icon.svg" alt="alto falante com o sinal de menos"
+                            <img src="assets/icon/volume-minus-icon.svg" alt="alto falante com o sinal de menos"
                                 title="Diminuir volume">
                         </button>
                         <button id="plusVolume" class="flex center radius-50 plusminus">
-                            <img src="./assets/icon/volume-plus-icon.svg" alt="Sinal de mais seguido do número dez"
+                            <img src="assets/icon/volume-plus-icon.svg" alt="Sinal de mais seguido do número dez"
                                 title="Aumentar volume">
                         </button>
                     </div>
@@ -64,7 +65,7 @@
             </div>
         </section>
     </main>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
