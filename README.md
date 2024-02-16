@@ -10,7 +10,7 @@ O principal objetivo deste projeto foi praticar e reforçar os conceitos de HTML
 
 ## Demonstração Ao Vivo
 
-Você pode visualizar a demonstração ao vivo do projeto [aqui](https://lugom.io/projects/simple-music-player).
+Você pode visualizar a demonstração ao vivo do projeto [aqui](https://lugom.io/projects/simple-music-player/).
 
 ## Arquivo de Design no Figma
 
